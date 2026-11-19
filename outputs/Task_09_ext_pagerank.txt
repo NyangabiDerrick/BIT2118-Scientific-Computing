@@ -1,0 +1,11 @@
+C. original             dominant eigenvalue 2.5616; importance A,B,C,D = [0.2192 0.2808 0.2808 0.2192]
+C. with extra link A-D  dominant eigenvalue 3.0000; importance A,B,C,D = [0.25 0.25 0.25 0.25]
+
+E. New case: PageRank of a 5-page website (damping 0.85)
+  eigenvalue closest to 1: 1.000000
+  Home     0.3505
+  Shop     0.2359
+  Contact  0.2047
+  Blog     0.1045
+  About    0.1045
+  power-method difference from eig result: 7.22e-16

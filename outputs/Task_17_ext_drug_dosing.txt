@@ -1,0 +1,18 @@
+C. Euler error at t = 30 min for cooling dT/dt = -k (T - Ta)
+  h =   4.0: Euler  25.668 C, exact 26.776 C, error 1.1078 C
+  h =   1.0: Euler  26.404 C, exact 26.776 C, error 0.3720 C
+  h =   0.5: Euler  26.587 C, exact 26.776 C, error 0.1890 C
+  h =   0.1: Euler  26.738 C, exact 26.776 C, error 0.0383 C
+  h =  0.01: Euler  26.772 C, exact 26.776 C, error 0.0038 C
+  Halving h roughly halves the error (Euler is first order).
+  Stability: with h = 20 (> 2/k = 16.7) Euler oscillates and diverges:
+    T = -66.0
+    T = 152.4
+    T = -153.4
+
+E. New case: 100 mg every 8 h, elimination k = 0.2 /h, Euler h = 0.05 h
+  amount in body just after dose at 8 h : 120.0 mg
+  amount just after dose at 40 h        : 125.0 mg
+  theoretical steady-state peak         : 125.3 mg
+  trough just before a dose at 40 h     : 25.3 mg
+  half-life = ln2/k = 3.47 h

@@ -1,0 +1,7 @@
+C. N=  100,000: loop 0.0263s, vectorized 0.00027s, speed-up 99x
+C. N=1,000,000: loop 0.2709s, vectorized 0.00353s, speed-up 77x
+
+E. New case: mobile-money tiered fees on 1,000,000 payments
+  total value moved : 827,830,795 KES
+  total fees earned : 13,649,048 KES (1.649% of value)
+  loop 0.192s vs vectorized 0.0212s -> 9x faster

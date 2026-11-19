@@ -1,0 +1,10 @@
+C. angle=45 deg, scale=(2.0,1.5) -> det=3.000 (area factor)
+   corner (1,1) -> [0.3536 2.4749]
+C. angle=90 deg, scale=(3.0,1.0) -> det=3.000 (area factor)
+   corner (1,1) -> [-1.  3.]
+
+E. New case: 2-link robot arm (L1=1.0 m, L2=0.7 m)
+  joint angles ( 30,  45) deg -> end effector at x=1.047 m, y=1.176 m
+  joint angles ( 30, -20) deg -> end effector at x=1.555 m, y=0.622 m
+  joint angles ( 90,   0) deg -> end effector at x=0.000 m, y=1.700 m
+  maximum reach (arm straight) = 1.70 m; distance for (30,45): 1.575 m

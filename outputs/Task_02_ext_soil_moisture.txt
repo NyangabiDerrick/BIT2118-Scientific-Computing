@@ -1,0 +1,10 @@
+C. Parameter change (one faulty reading, hour 12: 29.4 -> 60.0)
+  mean   : 23.12 -> 24.40 C
+  max    : 29.40 -> 60.00 C
+  median : 22.75 -> 22.75 C  (robust to the spike)
+
+E. New case: soil-moisture irrigation monitor
+  mean / min / max moisture: 33.96 / 25 / 41 %
+  hours below 30% (irrigate): [9, 10, 11, 12, 13, 14, 15]
+  hours of water stress: 7 of 24
+  total moisture deficit: 24 %-hours

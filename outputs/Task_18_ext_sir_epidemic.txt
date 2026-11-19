@@ -1,0 +1,10 @@
+C. RC charging, voltage at t = 1 s and time to reach 63.2% (one time constant)
+  R =    500 ohm, tau = 0.5 s: V(1 s) = 4.323 V, t(63%) ~ 0.50 s
+  R =   1000 ohm, tau = 1.0 s: V(1 s) = 3.161 V, t(63%) ~ 1.00 s
+  R =   2000 ohm, tau = 2.0 s: V(1 s) = 1.967 V, t(63%) ~ 2.00 s
+
+E. New case: SIR epidemic, N = 10,000, 10 initially infected, gamma = 0.1/day
+  no intervention (R0=3.0)  : peak infected    3008 on day  38.2; total ever infected    9405
+  distancing (R0=1.8)       : peak infected    1185 on day  80.5; total ever infected    7278
+  strong control (R0=0.9)   : peak infected      10 on day   0.0; total ever infected      80
+  Rule of thumb: R0 = beta/gamma > 1 -> epidemic grows; < 1 -> dies out.

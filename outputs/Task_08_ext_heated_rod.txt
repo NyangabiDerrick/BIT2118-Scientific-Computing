@@ -1,0 +1,14 @@
+C. Iterations needed (ends 100 C / 20 C)
+    n     tol   Jacobi  Gauss-Seidel
+    5   1e-08      150            75
+    5   1e-03       70            35
+   10   1e-08      486           245
+   10   1e-03      208           106
+   20   1e-08     1672           842
+   20   1e-03      647           330
+   40   1e-08     5935          2993
+   40   1e-03     2017          1034
+
+E. New case: steel rod, 20 interior points, ends 150 C and 30 C
+  Gauss-Seidel converged in 860 iterations; max error vs direct = 4.39e-07 C
+  temperature at midpoint: 87.14 C (linear profile -> expected 87.14 C)

@@ -1,0 +1,12 @@
+C. Integral of sin(x) on [0, pi] (exact value 2)
+   points   trapezoid err   Simpson err
+        5        1.04e-01      4.56e-03
+        9        2.58e-02      2.69e-04
+       17        6.43e-03      1.66e-05
+       33        1.61e-03      1.03e-06
+
+E. New case: borehole pump, flow every 10 minutes
+  trapezoid: 2,815.0 L; Simpson: 2,876.7 L; difference 61.7 L
+  average flow = 47.9 L/min
+  a 2,500 L tank would be 100% full after one hour
+  hours of pumping to fill the tank at this rate: 0.87 h

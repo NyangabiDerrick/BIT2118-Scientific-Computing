@@ -1,0 +1,11 @@
+C. totals [20.0, 72.0] -> Type A = 3.00, Type B = 4.00
+C. totals [26.0, 80.0] -> Type A = 4.75, Type B = 3.50
+C. totals [20.0, 40.0] -> Type A = 5.00, Type B = 0.00
+   det(A) = 32.0 (non-zero, so a unique solution exists)
+
+E. New case: 3-mesh resistor circuit
+  mesh currents I1, I2, I3 (A): [ 2.0362  0.1086 -0.9593]
+  residual norm: 4.440892098500626e-16
+  current through the 2-ohm shared resistor (I1-I2): 1.9276 A
+  power in 2-ohm resistor: 7.4313 W
+  condition number of R: 2.76 (small -> well-conditioned)

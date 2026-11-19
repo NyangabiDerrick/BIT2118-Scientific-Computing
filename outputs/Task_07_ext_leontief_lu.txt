@@ -1,0 +1,7 @@
+C. n=300, 500 right-hand sides: solve each time 3.214s, LU once 0.351s -> 9.2x faster
+
+E. New case: 3-sector Leontief economy (million KES)
+  baseline demand      demand [100.0, 150.0, 200.0] -> total output [221.09 394.42 354.11]  (sum 969.6)
+  export boom (mfg)    demand [100.0, 250.0, 200.0] -> total output [255.19 561.86 397.52]  (sum 1214.6)
+  services recession   demand [100.0, 150.0, 120.0] -> total output [208.19 360.19 250.42]  (sum 818.8)
+  Same LU factors reused for every scenario; no new elimination needed.

@@ -1,0 +1,14 @@
+C. Overload probability P(demand > 1000), exact normal tail = 10.5650%
+  N =       100: estimate  2.000% (std. error ~ 1.400%), error 8.565%
+  N =     1,000: estimate 10.100% (std. error ~ 0.953%), error 0.465%
+  N =   100,000: estimate 10.616% (std. error ~ 0.097%), error 0.051%
+  N = 1,000,000: estimate 10.570% (std. error ~ 0.031%), error 0.005%
+  capacity 1000, std 120: overload probability 10.644%
+  capacity 1100, std 120: overload probability 1.917%
+  capacity 1000, std 80: overload probability 3.112%
+
+E. New case: three-stage software project (days)
+  expected total 34.0 d (sum of most likely = 29 d), std 3.7 d
+  P(finish within 30 days) = 14.1%
+  80th percentile = 37.1 d; 95th = 40.4 d
+  a deadline of 39 days gives ~90% confidence

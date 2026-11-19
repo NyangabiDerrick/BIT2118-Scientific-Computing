@@ -1,0 +1,4 @@
+Solver success: True
+Time constant RC: 1.000 s
+Capacitor voltage at 5 s: 4.9663 V
+Maximum error against exact solution: 9.282e-10 V

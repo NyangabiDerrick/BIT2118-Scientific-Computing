@@ -1,0 +1,15 @@
+C. Precision / tolerance changes
+  float64: 0.1+0.2 ==0.3 -> False
+  float32: 0.1+0.2 ==0.3 -> True
+  eps float64 = 2.22e-16, eps float32 = 1.19e-07
+  isclose(0.1+0.2, 0.3, atol=1e-20, rtol=0) -> False
+  isclose(0.1+0.2, 0.3, atol=1e-12, rtol=0) -> True
+  isclose(0.1+0.2, 0.3, atol=0.001, rtol=0) -> True
+
+E. New case: adding one million deposits of 0.10
+  exact (Decimal)        : 100000.00
+  naive float64 loop     : 100000.0000013329  error 1.333e-06
+  np.sum (pairwise)      : 100000.0000000000  error 2.910e-11
+  math.fsum              : 100000.0000000000  error 0.000e+00
+  naive float32, 100,000 : 9998.5566  (exact 10000.0, error 1.443)
+  Lesson: store money as integer cents or Decimal; never compare floats with ==.

@@ -1,0 +1,10 @@
+C. ambient 25 C -> equilibrium 27.525211 C after 31 halvings
+C. ambient 30 C -> equilibrium 32.017227 C after 31 halvings
+   tolerance 1e-02 -> 10 halvings, root 27.52929688
+   tolerance 1e-06 -> 24 halvings, root 27.52521098
+   tolerance 1e-10 -> 37 halvings, root 27.52521082
+
+E. New case: break-even quantities
+  lower break-even q = 25.20 units (27 halvings; SciPy 25.20)
+  upper break-even q = 3174.80 units (31 halvings)
+  profit is positive between them; maximum at q = 1600, profit = 62,000 KES

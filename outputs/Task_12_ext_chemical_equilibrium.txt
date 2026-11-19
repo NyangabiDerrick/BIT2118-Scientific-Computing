@@ -1,0 +1,10 @@
+C. radius 2.0: 2 intersection(s): (-1.517, 1.303), (1.517, 1.303)
+C. radius 1.0: 3 intersection(s): (-1.000, 0.000), (0.000, -1.000), (1.000, 0.000)
+C. radius 0.5: 0 intersection(s): none
+
+E. New case: chemical equilibrium A + B <-> C (K = 5)
+  polynomial roots: [1.44721 0.55279] -> only 0.55279 is physical (cannot exceed 0.8)
+  [C] = 0.5528 mol/L, [A] = 0.4472, [B] = 0.2472
+  check K = 5.000000
+  with K =  1.0: [C] = 0.3230 mol/L  (40.4% of B converted)
+  with K = 20.0: [C] = 0.6892 mol/L  (86.1% of B converted)

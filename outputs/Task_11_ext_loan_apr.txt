@@ -1,0 +1,11 @@
+C. flows [-10000, 3000, 3500, 4000, 2500]: IRR = 11.5425% in 4 Newton iterations
+C. flows [-10000, 4000, 4000, 4000, 4000]: IRR = 21.8623% in 5 Newton iterations
+   start 0.01: 11.5425% after 5 iterations
+   start 0.10: 11.5425% after 4 iterations
+   start 0.50: 11.5425% after 8 iterations
+
+E. New case: loan with processing fee
+  Newton monthly rate: 2.03051% (3 iterations)
+  Secant monthly rate: 2.03051% (6 iterations)
+  nominal annual rate (x12): 24.37%; effective annual rate: 27.28%
+  total repaid 108,000 for 95,000 received -> extra cost 13,000

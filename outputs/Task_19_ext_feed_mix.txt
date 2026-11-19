@@ -1,0 +1,11 @@
+C. Cheapest server mix when the cost of Type A changes (B costs 18, capacities 100/170, need >= 1000)
+  cost A = 12: continuous A=0.00, B=5.88, cost 105.88; best whole servers (cost, A, B) = (108, 0, 6)
+  cost A =  8: continuous A=10.00, B=0.00, cost 80.00; best whole servers (cost, A, B) = (80, 10, 0)
+  cost A = 20: continuous A=0.00, B=5.88, cost 105.88; best whole servers (cost, A, B) = (108, 0, 6)
+  Cost per capacity unit decides: A = 12/100 = 0.12, B = 18/170 = 0.106 -> B wins until A gets cheaper.
+
+E. New case: 100 kg poultry feed
+  SLSQP : maize 74.29 kg, soybean 25.71 kg, cost 3,771.43 KES
+  linprog check: maize 74.29 kg, soybean 25.71 kg, cost 3,771.43 KES
+  protein supplied 18.00 kg (need 18, binding), energy 316.9 Mcal (need 300, slack)
+  Active constraint = protein: the optimum uses exactly the minimum protein allowed.

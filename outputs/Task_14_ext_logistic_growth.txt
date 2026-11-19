@@ -1,0 +1,12 @@
+C. Polynomial degree on the server data (RMSE in ms)
+  degree 1: RMSE  18.83, prediction at 400 users   312.9 ms
+  degree 2: RMSE   1.55, prediction at 400 users   377.9 ms
+  degree 3: RMSE   0.14, prediction at 400 users   387.9 ms
+
+E. New case: logistic adoption of mobile money
+  carrying capacity K = 38.3 +/- 0.5 million subscribers
+  growth rate r = 0.894/yr, midpoint t0 = 4.51 years, RMSE = 0.51
+  forecast year 10: 38.0 million
+  forecast year 12: 38.3 million
+  forecast year 15: 38.3 million
+  quadratic would forecast 72.0 million in year 15 (unrealistic: no ceiling)
